@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.intsy.picanotes.AddCourseActivity" >
+    <item android:id="@+id/newCourseBtn" 
+        android:title="addNewCourseAction" 
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom">
+        
+    </item>
+    <item android:id="@+id/enableDeleteBtn" 
+        android:icon="@android:drawable/ic_menu_delete" 
+        android:title="enableDltBtn"
+        app:showAsAction="ifRoom"></item>
+    
+
+</menu>

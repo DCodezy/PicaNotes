@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.intsy.picanotes.AddCourseActivity" >
+
+    <ListView
+        android:id="@+id/mainListView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1" >
+    </ListView>
+    
+<!--     android:id="@+id/mainListView" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="370dp" -->
+<!--         android:layout_alignParentBottom="true" -->
+<!--         android:layout_alignParentLeft="true" -->
+<!--         android:layout_marginBottom="50dp" > -->
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:hint="e.g. ENG 301"
+        android:ems="10" 
+        android:inputType="textNoSuggestions|textCapCharacters"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:text="Course:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    
+
+</RelativeLayout>

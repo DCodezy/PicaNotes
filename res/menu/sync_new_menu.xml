@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.intsy.picanotes.AddCourseActivity" >
+    <item android:id="@+id/doneSync" 
+        android:icon="@drawable/abc_ic_cab_done_holo_dark" 
+        android:title="doneSyncBtn"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

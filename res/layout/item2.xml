@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <Spinner
+        android:id="@+id/mainSpinner"
+        android:layout_width="84dp"
+        android:layout_height="38dp" />
+
+    <TextView
+        android:id="@+id/textSeparator"
+        android:layout_width="27dp"
+        android:layout_height="41dp"
+        android:layout_weight="0.14"
+        android:gravity="center"
+        android:text="to"
+        android:textSize="23sp"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/subSpinner"
+        android:layout_width="90dp"
+        android:layout_height="38dp"
+        android:layout_weight="0.90" />
+
+    <Button
+        android:id="@+id/dltBtn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="72dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="#FFFFFFFF"
+        android:visibility="visible" />
+ />
+
+</LinearLayout>

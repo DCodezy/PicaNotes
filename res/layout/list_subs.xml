@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Spinner
+        android:id="@+id/timeDropdown1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btnDeleteTime"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignBottom="@+id/timeDropdown1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="X" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/timeDropdown1"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="92dp"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton1"
+        android:layout_below="@+id/timeDropdown1"
+        android:src="@android:drawable/ic_menu_delete" />
+
+</RelativeLayout>
